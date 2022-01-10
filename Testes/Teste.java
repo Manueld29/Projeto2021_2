@@ -22,6 +22,7 @@ public class Teste {
 
     @Test
     public void TesteFormato() {
+
         ByteArrayOutputStream OutputEcran1 = new ByteArrayOutputStream();
         System.setOut(new PrintStream(OutputEcran1));
         Teste.procurar("Formato", "MP3");
